@@ -140,7 +140,7 @@
       }
 
       .logo-footer {
-        overflow: hidden;
+        overflow: hidden !important;
       }
       
       .logo-footer img {

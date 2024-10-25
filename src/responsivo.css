@@ -145,7 +145,13 @@
       
       .logo-footer img {
         margin: -3rem;
-        max-height: 25rem;
+        margin-right: -6.3rem;
+        max-height: 20rem;
+      }
+
+      .nav-page-footer, .nav-page-footer-two {
+        padding: 0rem;
+        gap: 0.5rem;
       }
       
       .nav-page-footer a, .nav-page-footer-two a, .email a {

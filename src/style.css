@@ -1,8 +1,6 @@
 body {
   background-color: #000000;
   color: #fff;
-  overflow-x: hidden;
-  max-width: 100%;
 }
 
 header {
@@ -37,6 +35,7 @@ header::after {
   align-items: center;
   justify-content: space-between;
   height: 12rem;
+  overflow-y: hidden;
 }
 
 .img-logo img {

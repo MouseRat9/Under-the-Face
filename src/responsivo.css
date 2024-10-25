@@ -1,8 +1,4 @@
  @media (max-width: 430px) {
-    
-  body {
-    overflow-x: hidden;
-  }
 
   header {
         height: 22rem;
@@ -10,6 +6,7 @@
 
       .content-header {
         height: 4rem;
+        overflow-y: hidden;
       }
 
       .img-logo img {

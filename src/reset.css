@@ -4,7 +4,10 @@
     border: 0;
     box-sizing: border-box;
     text-decoration: none;
+    overflow-x: hidden;
+    max-width: 100%;
     font-family: 'Poppins', sans-serif;
+    outline: 2px solid red;
 }
 
 html {

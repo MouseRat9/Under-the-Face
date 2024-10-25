@@ -138,11 +138,14 @@
         padding-top: 2rem;
         padding-bottom: 3rem;
       }
+
+      .logo-footer {
+        overflow: hidden;
+      }
       
       .logo-footer img {
         margin: -3rem;
         max-height: 25rem;
-        overflow-y: hidden;
       }
       
       .nav-page-footer a, .nav-page-footer-two a, .email a {

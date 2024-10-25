@@ -1,0 +1,160 @@
+ @media (max-width: 430px) {
+    header {
+        height: 22rem;
+      }
+
+      .content-header {
+        height: 4rem;
+      }
+
+      .img-logo img {
+        width: 7rem;
+      }
+
+      .nav-page {
+        padding: 0 2rem;
+        font-size: x-small;
+      }
+      
+      .nav-page a {
+        padding: 0 0.1rem;
+      }
+
+      .btn-buy {
+        padding: 0.5rem 0.5rem;
+        font-size: x-small;
+        padding-bottom: 1.5rem;
+      }
+      
+      .btn-learn {
+        padding-top: 5rem;
+        padding-right: 0.5rem;
+        font-size: x-small;
+      }
+
+      .btn-buy-game {
+        color: #fff;
+        padding: 0.5rem 1.5rem;
+      }
+
+      .btn-learn-more {
+        color: #fff;
+        padding: 0.5rem 1.1rem;
+      }
+      
+      .game-description {
+        padding: 1rem;
+        width: 20rem;
+        font-size: small;
+      }
+
+      .under-the-face, section h1{
+        padding: 1rem;
+      }
+      
+      .UTF {
+        padding-bottom: 2rem;
+      }
+
+      .game {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-size: small;
+        gap: 1rem;
+      }
+
+      .game p {
+        width: 22.8rem;
+      }
+      
+      .game .first h2,
+      .second h2 {
+        padding: 0.7rem 0;
+      }
+      
+      .game .gameplay {
+        padding-top: 1rem;
+      }
+      
+      .game .gameplay .gameplay-list {
+        width: 25rem;
+      }
+      
+      .gameplay-list h3,
+      .gameplay-list p {
+        padding: 0 5rem;
+      }
+      
+      .game .four {
+        padding: 1rem 0;
+      }
+      
+      .media-contet {
+        padding: 1rem;
+      }
+      
+      .main-video iframe {
+        width: 25rem;
+        height: 15rem;
+      }
+
+      .screenshots {
+        padding: 0.5rem;
+      }
+      
+      .screenshots h1 {
+        padding: 1rem 1rem;
+      }
+      
+      .screenshots .game-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.1rem;
+      }
+      
+      .game-images img {
+        width: 11.6rem;
+        padding: 0.1rem 0;
+      }
+
+      .about p {
+        width: 22rem;
+        padding-bottom: 1rem;
+        font-size: medium;
+      }
+
+      footer {
+        padding: 1rem;
+      }
+
+      .contact {
+        font-size: medium;
+        padding-bottom: 2rem;
+      }
+      
+      .email {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+      }
+      
+      .logo-footer img {
+        margin-bottom: -7rem;
+        margin-top: -7rem;
+        margin-right: -5rem;
+        margin-left: -8rem;
+        max-height: 25rem;
+      }
+      
+      .nav-page-footer a, .nav-page-footer-two a, .email a {
+        font-size: medium;
+      }
+
+      .media-social {
+        padding-bottom: 1.5rem;
+      }
+
+      .media-social a img {
+        width: 1.8rem;
+        height: 1.8rem;
+      }
+ }

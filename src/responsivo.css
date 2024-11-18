@@ -10,16 +10,17 @@
       }
 
       .img-logo img {
-        width: 7rem;
+        width: 10rem;
+        margin-left: -1rem;
       }
 
       .nav-page {
-        padding: 0 2rem;
+        padding: 0 0.5rem;
         font-size: x-small;
       }
       
       .nav-page a {
-        padding: 0 0.1rem;
+        padding: 0 0.2rem;
       }
 
       .btn-buy {
@@ -68,14 +69,23 @@
       .game p {
         width: 22.8rem;
       }
+
+      .game .first {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        gap: 0;
+      }
+
+      .enviroment img {
+        display: flex;
+        justify-self: center;
+        width: 30rem;
+        padding: 6rem 0;
+      }
       
       .game .first h2,
       .second h2 {
         padding: 0.7rem 0;
-      }
-      
-      .game .gameplay {
-        padding-top: 1rem;
       }
       
       .game .gameplay .gameplay-list {
@@ -84,11 +94,7 @@
       
       .gameplay-list h3,
       .gameplay-list p {
-        padding: 0 5rem;
-      }
-      
-      .game .four {
-        padding: 1rem 0;
+        padding: 0 2rem;
       }
       
       .media-contet {
@@ -137,6 +143,8 @@
       .email {
         padding-top: 2rem;
         padding-bottom: 3rem;
+        display: flex;
+        justify-content: center;
       }
 
       .logo-footer {
@@ -144,18 +152,39 @@
       }
       
       .logo-footer img {
-        margin: -3rem;
-        margin-right: -6.3rem;
-        max-height: 20rem;
+        display: flex;
+        justify-content: center;
+        margin: 0rem;
+        max-height: 35rem;
+      }
+
+      .logo-nav {
+        display: block;
+        align-items: center;
+      }
+
+      .logo-nav .contain-nav nav a {
+        display: flex;
+        justify-content: center;
+        font-size: x-large;
+        padding-bottom: 0.5rem;
       }
 
       .nav-page-footer, .nav-page-footer-two {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
         padding: 0rem;
-        gap: 0.5rem;
+        gap: 0rem;
       }
       
       .nav-page-footer a, .nav-page-footer-two a, .email a {
+        padding: 0rem;
         font-size: medium;
+      }
+
+      .nav-page-footer p, .nav-page-footer-two p {
+        color: #141414;
+        margin: -1rem;
       }
 
       .media-social {
@@ -163,7 +192,40 @@
       }
 
       .media-social a img {
-        width: 1.8rem;
-        height: 1.8rem;
+        width: 2.3rem;
+        height: 2.3rem;
+      }
+      
+      .arrow-left,
+      .arrow-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: auto;
+        bottom: 0;
+        font-size: 20px;
+        line-height: 250px;
+        width: 40px;
+        color: #fff;
+        transition: all 600ms ease-in-out;
+        background: linear-gradient(to left, transparent 0%, black 200%);
+        opacity: 0.1;
+        cursor: pointer;
+        border: none;
+      }
+      .arrow-left:hover,
+      .arrow-right:hover {
+        opacity: 1;
+      }
+      
+      .arrow-right {
+        right: 0;
+        left: auto;
+        text-align: right;
+        background: linear-gradient(to right, transparent 0%, black 200%);
+      }
+      
+      .item {
+        height: 12rem;
       }
  }
